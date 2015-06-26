@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite Demo" verbose="1" >
+    <test name="The Internet Site Demo" >
+        <classes>
+            <!--<class name="testcase.TestRegisterPage"/>;-->
+            <class name="testcase.TestSearch"/>;
+        </classes>
+    </test>
+</suite>

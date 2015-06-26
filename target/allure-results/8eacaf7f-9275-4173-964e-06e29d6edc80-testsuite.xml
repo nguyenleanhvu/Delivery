@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1435142534470" stop="1435142602090" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test Suite Demo : The Internet Site Demo</name>
+    <title>Test Suite Demo : The Internet Site Demo</title>
+    <test-cases>
+        <test-case start="1435142568990" stop="1435142571924" status="passed">
+            <name>testLoginPage[vu.anh.nguyen@infonam.com,123456]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vunguyenpc"/>
+                <label name="thread" value="6302@vunguyenpc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1435142588645" stop="1435142591774" status="passed">
+            <name>testLoginPage[a12345@infonam.com,123456]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vunguyenpc"/>
+                <label name="thread" value="6302@vunguyenpc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1435142599585" stop="1435142601942" status="passed">
+            <name>testLoginPage[vu.anh.nguyen@infonam.com,654321]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vunguyenpc"/>
+                <label name="thread" value="6302@vunguyenpc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

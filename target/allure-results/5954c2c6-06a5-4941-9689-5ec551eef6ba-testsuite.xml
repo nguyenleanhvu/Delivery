@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1435214570296" stop="1435214593177" version="1.4.11" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test Suite Demo : The Internet Site Demo</name>
+    <title>Test Suite Demo : The Internet Site Demo</title>
+    <test-cases>
+        <test-case start="1435214586779" stop="1435214592606" status="passed">
+            <name>testRigisterPage[Vinh,Nguyen,humin.vu39@gmail.com,123456,123456]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vunguyenpc"/>
+                <label name="thread" value="25479@vunguyenpc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
