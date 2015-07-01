@@ -3,7 +3,6 @@
 <suite name="Test Suite Demo" verbose="1" >
     <test name="The Internet Site Demo" >
         <classes>
-            <!--<class name="testcase.TestRegisterPage"/>;-->
             <class name="testcase.TestLoginPage"/>;
             <class name="testcase.TestRegisterPage"/>;
         </classes>
