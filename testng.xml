@@ -4,7 +4,8 @@
     <test name="The Internet Site Demo" >
         <classes>
             <!--<class name="testcase.TestRegisterPage"/>;-->
-            <class name="testcase.TestSearch"/>;
+            <class name="testcase.TestLoginPage"/>;
+            <class name="testcase.TestRegisterPage"/>;
         </classes>
     </test>
 </suite>
