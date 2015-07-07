@@ -11,7 +11,7 @@ import static support.Helpers.find_element;
 public class ListViewLoginPage {
 
     By SignUpButton = By.xpath("//*[@id=\"account_menu\"]/div[4]/a");
-    By ListViewText1 = By.xpath("//*[@id=\"account_menu\"]/div[2]/a");
+    //By ListViewText1 = By.xpath("//*[@id=\"account_menu\"]/div[2]/a");
 
     public Boolean listViewLoginLoaded() {
         return find_element(SignUpButton).isDisplayed();

@@ -27,7 +27,6 @@ public class LoginSucceedPage  {
         find_element(username).sendKeys(user);
         find_element(password).sendKeys(pass);
         find_element(loginBtn).click();
-        driver.navigate().back();
 
     }
     public void gotoListViewLogin() {find_element(loginNameSucceedRef).click();}

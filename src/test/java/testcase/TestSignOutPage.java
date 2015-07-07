@@ -22,7 +22,7 @@ public class TestSignOutPage extends SetupTest {
     }
 
     @Test(dataProvider =  "getCredentials")
-    public void testLoginPage(String user, String pass){
+    public void testSignOutPage(String user, String pass){
         HomePage homepage = new HomePage();
         Assert.assertEquals(homepage.homePageLoaded(), Boolean.TRUE);
         homepage.gotoLoginPage();
@@ -30,12 +30,18 @@ public class TestSignOutPage extends SetupTest {
         LoginSucceedPage loginpage1 = new LoginSucceedPage();
         Assert.assertEquals(loginpage1.loginPageLoaded1(), Boolean.TRUE);
         loginpage1.loginToLoginPage1(user, pass);
-
-
         loginpage1.gotoListViewLogin();
-//        ListViewLoginPage signup = new ListViewLoginPage();
-//        Assert.assertEquals(signup.listViewLoginLoaded(), Boolean.TRUE);
-//        signup.ReturnToHomePage();
+
+
+        ListViewLoginPage listview1 = new ListViewLoginPage();
+        Assert.assertEquals(listview1.listViewLoginLoaded(), Boolean.TRUE);
+        listview1.ReturnToHomePage();
+
+
+        HomePage homepage1 = new HomePage();
+        Assert.assertEquals(homepage1.homePageLoaded(), Boolean.TRUE);
+
+//
 
 
     }
