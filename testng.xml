@@ -5,7 +5,11 @@
         <classes>
             <!--<class name="testcase.TestLoginPage"/>;-->
             <!--<class name="testcase.TestRegisterPage"/>;-->
-            <class name="testcase.TestSignOutPage"/>;
+            <!--<class name="testcase.TestSignOutPage"/>;-->
+            <!--<class name="testcase.TestMenuHomePage"/>;-->
+            <class name="testcase.TestHuongDanDatMonPage"/>;
+
+
 
         </classes>
     </test>

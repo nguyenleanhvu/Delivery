@@ -1,7 +1,9 @@
 package Pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 
+import static support.Helpers.driver;
 import static support.Helpers.find_element;
 
 /**
@@ -20,6 +22,7 @@ public class HomePage {
     By loginPageRef = By.xpath("//*[@id=\"loginForm\"]/a[1]");
     By searchPageRef = By.xpath("//*[@id=\"searchFormTop\"]/div/a/span");
 
+    By menuRef = By.xpath("//*[@id=\"container-s\"]/div[1]/div/div[1]/div[2]/ul/li/span");
 
    // ObjectMap objectMap = new ObjectMap();
 
@@ -30,7 +33,12 @@ public class HomePage {
 
     public void gotoLoginPage() {find_element(loginPageRef).click();}
     public void gotoSearchPage() {find_element(searchPageRef).click();}
+    public void gotoMenuHomepage() {find_element(menuRef).click();}
+    public void hoverToMenuI() {
+        Actions action = new Actions(driver);
+        action.moveToElement(find_element(menuRef)).build().perform();
 
+    }
 
 
 }
