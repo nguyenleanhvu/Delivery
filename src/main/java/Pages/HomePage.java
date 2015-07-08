@@ -24,8 +24,9 @@ public class HomePage {
 
     By menuRef = By.xpath("//*[@id=\"container-s\"]/div[1]/div/div[1]/div[2]/ul/li/span");
 
-   // ObjectMap objectMap = new ObjectMap();
+    By danhchodt = By.xpath("//*[@id=\"container-s\"]/div[1]/div/div[1]/div[2]/ul/li/ul/li[3]/a");
 
+    By tuyendungRef = By.xpath("//*[@id=\"container-s\"]/div[1]/div/div[1]/div[2]/ul/li/ul/li[4]/a");
     public Boolean homePageLoaded() {
         return find_element(homePageBody1).getText().equals(homePageTxt1);
     }
@@ -39,6 +40,14 @@ public class HomePage {
         action.moveToElement(find_element(menuRef)).build().perform();
 
     }
+    public void gotoDanhChoDoiTac() {
+        find_element(menuRef).click();
+        find_element(danhchodt).click();
+    }
 
+    public void gotoTuyenDungPage() {
+        find_element(menuRef).click();
+        find_element(tuyendungRef).click();
+    }
 
 }

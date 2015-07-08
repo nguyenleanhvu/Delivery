@@ -7,7 +7,9 @@
             <!--<class name="testcase.TestRegisterPage"/>;-->
             <!--<class name="testcase.TestSignOutPage"/>;-->
             <!--<class name="testcase.TestMenuHomePage"/>;-->
-            <class name="testcase.TestHuongDanDatMonPage"/>;
+            <!--<class name="testcase.TestHuongDanDatMonPage"/>;-->
+            <class name="testcase.TestDanhChoDoiTacPage"/>;
+
 
 
 
