@@ -27,6 +27,9 @@ public class HomePage {
     By danhchodt = By.xpath("//*[@id=\"container-s\"]/div[1]/div/div[1]/div[2]/ul/li/ul/li[3]/a");
 
     By tuyendungRef = By.xpath("//*[@id=\"container-s\"]/div[1]/div/div[1]/div[2]/ul/li/ul/li[4]/a");
+
+    By productdetailRef = By.xpath("/html/body/section/div/div/div[4]/div/div/div[1]/div[1]/a/img");
+
     public Boolean homePageLoaded() {
         return find_element(homePageBody1).getText().equals(homePageTxt1);
     }
@@ -49,5 +52,9 @@ public class HomePage {
         find_element(menuRef).click();
         find_element(tuyendungRef).click();
     }
+    public void gotoProductDetailPage() {
+        find_element(productdetailRef).click();
+    }
 
-}
+
+    }

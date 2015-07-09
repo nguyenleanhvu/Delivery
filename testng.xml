@@ -8,7 +8,12 @@
             <!--<class name="testcase.TestSignOutPage"/>;-->
             <!--<class name="testcase.TestMenuHomePage"/>;-->
             <!--<class name="testcase.TestHuongDanDatMonPage"/>;-->
-            <class name="testcase.TestDanhChoDoiTacPage"/>;
+            <!--<class name="testcase.TestDanhChoDoiTacPage"/>;-->
+            <!--<class name="testcase.TestTuyenDungPage"/>;-->
+            <!--<class name="testcase.TestProductDetailPage"/>;-->
+            <class name="testcase.TestSelectProductPage"/>;
+
+
 
 
 
