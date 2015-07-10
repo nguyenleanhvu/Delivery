@@ -10,9 +10,9 @@ import org.testng.annotations.Test;
 import support.SetupTest;
 
 /**
- * Created by vunguyen on 09/07/2015.
+ * Created by vunguyen on 10/07/2015.
  */
-public class TestSelectProductPage extends SetupTest {
+public class TestResetThuc extends SetupTest {
     @DataProvider
     Object[][] getCredentials() {
         return new Object[][]{
@@ -21,7 +21,7 @@ public class TestSelectProductPage extends SetupTest {
     }
 
     @Test(dataProvider =  "getCredentials")
-    public void testLoginPage(String user, String pass){
+    public void t(String user, String pass){
         HomePage homepage = new HomePage();
         Assert.assertEquals(homepage.homePageLoaded(), Boolean.TRUE);
         homepage.gotoLoginPage();
@@ -36,12 +36,14 @@ public class TestSelectProductPage extends SetupTest {
         Assert.assertEquals(productdetailpage.productPageLoaded(), Boolean.TRUE);
         productdetailpage.gotoSelectProduct();
 
-
         SelectProductPage selectproductpage = new SelectProductPage();
         Assert.assertEquals(selectproductpage.selectproductPageLoaded(), Boolean.TRUE);
+
+        selectproductpage.clearallitems();
 
 
     }
 }
+
 
 

@@ -21,7 +21,7 @@ public class ProductDetailPage {
     }
 
 
-    public void gotoForgotPage() {
+    public void gotoSelectProduct() {
         find_element(clickproduct1).click();
         find_element(clickproduct2).click();}
 

@@ -3,15 +3,17 @@
 <suite name="Test Suite Demo" verbose="1" >
     <test name="The Internet Site Demo" >
         <classes>
-            <!--<class name="testcase.TestLoginPage"/>;-->
-            <!--<class name="testcase.TestRegisterPage"/>;-->
-            <!--<class name="testcase.TestSignOutPage"/>;-->
-            <!--<class name="testcase.TestMenuHomePage"/>;-->
-            <!--<class name="testcase.TestHuongDanDatMonPage"/>;-->
-            <!--<class name="testcase.TestDanhChoDoiTacPage"/>;-->
-            <!--<class name="testcase.TestTuyenDungPage"/>;-->
-            <!--<class name="testcase.TestProductDetailPage"/>;-->
+            <class name="testcase.TestLoginPage"/>;
+            <class name="testcase.TestRegisterPage"/>;
+            <class name="testcase.TestSignOutPage"/>;
+            <class name="testcase.TestMenuHomePage"/>;
+            <class name="testcase.TestHuongDanDatMonPage"/>;
+            <class name="testcase.TestDanhChoDoiTacPage"/>;
+            <class name="testcase.TestTuyenDungPage"/>;
+            <class name="testcase.TestProductDetailPage"/>;
             <class name="testcase.TestSelectProductPage"/>;
+            <class name="testcase.TestResetThuc"/>;
+
 
 
 
